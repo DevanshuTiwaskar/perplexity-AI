@@ -5,7 +5,7 @@ const authRouter = require('./routers/auth.route')
 const chatRouter = require("./routers/chat.route")
 
 
-app.use(express.json())
+app.use(express.json());
 app.use(cookieparser())
 
 
